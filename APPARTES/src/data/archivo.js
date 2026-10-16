@@ -16,4 +16,40 @@ export const categoriasArchivo = [
 //                                          // cualquier otro (.pdf) se muestra como documento descargable.
 //                                          // Sin archivo, la tarjeta muestra solo el texto (útil para patrimonio).
 // },
-export const archivo = [];
+export const archivo = [
+  {
+   categoria: "fotografias",              
+   titulo: "Concierto de aniversario",
+   anio: "2024",                          
+   descripcion: "Una o dos frases.",      
+   archivo: "/archivo/bcp_con1.JPG" 
+ },
+ {
+   categoria: "fotografias",              
+   titulo: "Concierto de aniversario",
+   anio: "2024",                          
+   descripcion: "Una o dos frases.",      
+   archivo: "/archivo/bcp_con2.JPG" 
+ },
+ {
+   categoria: "fotografias",              
+   titulo: "Concierto de aniversario",
+   anio: "2024",                          
+   descripcion: "Una o dos frases.",      
+   archivo: "/archivo/bcp_con3.JPG" 
+ },
+ {
+   categoria: "fotografias",              
+   titulo: "Concierto de aniversario",
+   anio: "2024",                          
+   descripcion: "Una o dos frases.",      
+   archivo: "/archivo/bcp_depie.JPG" 
+ },
+ {
+   categoria: "fotografias",              
+   titulo: "Concierto de aniversario",
+   anio: "2024",                          
+   descripcion: "Una o dos frases.",      
+   archivo: "/archivo/bcp_fromback.JPG" 
+ },
+];
