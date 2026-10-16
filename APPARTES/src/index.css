@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+/* Paleta y tipografía de APPARTES — disponibles como bg-ink, text-gold, font-display, etc. */
+@theme {
+  --color-ink: #1f1f24;
+  --color-ink-soft: #28282f;
+  --color-ivory: #f5f1e8;
+  --color-gold: #d8b56a;
+  --color-gold-2: #d7ad57;
+  --color-gold-deep: #a9803f;
+  --color-muted: #b8b4aa;
+  --color-line: rgb(245 241 232 / 0.14);
+
+  --font-display: "Unbounded", sans-serif;
+  --font-body: "Archivo", sans-serif;
+
+  --animate-rise: rise 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(14px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-ink font-body text-ivory antialiased;
+    line-height: 1.55;
+  }
+
+  ::selection {
+    background: var(--color-gold);
+    color: var(--color-ink);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-gold);
+    outline-offset: 3px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}
