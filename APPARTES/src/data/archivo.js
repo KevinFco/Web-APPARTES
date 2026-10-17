@@ -19,37 +19,37 @@ export const categoriasArchivo = [
 export const archivo = [
   {
    categoria: "fotografias",              
-   titulo: "Concierto de aniversario",
-   anio: "2024",                          
-   descripcion: "Una o dos frases.",      
+   titulo: "Primer concierto de la Banda",
+   anio: "2023",                          
+   descripcion: "",      
    archivo: "/archivo/bcp_con1.JPG" 
  },
  {
    categoria: "fotografias",              
-   titulo: "Concierto de aniversario",
-   anio: "2024",                          
-   descripcion: "Una o dos frases.",      
+   titulo: "Concierto para el FIPA",
+   anio: "2023",                          
+   descripcion: "",      
    archivo: "/archivo/bcp_con2.JPG" 
  },
  {
    categoria: "fotografias",              
-   titulo: "Concierto de aniversario",
-   anio: "2024",                          
-   descripcion: "Una o dos frases.",      
+   titulo: "Competencia Nacional de Bandas",
+   anio: "2025",                          
+   descripcion: "",      
    archivo: "/archivo/bcp_con3.JPG" 
  },
  {
    categoria: "fotografias",              
-   titulo: "Concierto de aniversario",
-   anio: "2024",                          
-   descripcion: "Una o dos frases.",      
+   titulo: "Competencia Nacional de Bandas",
+   anio: "2025",                          
+   descripcion: "",      
    archivo: "/archivo/bcp_depie.JPG" 
  },
  {
    categoria: "fotografias",              
-   titulo: "Concierto de aniversario",
-   anio: "2024",                          
-   descripcion: "Una o dos frases.",      
+   titulo: "Primer concierto de la Banda",
+   anio: "2023",                          
+   descripcion: "",      
    archivo: "/archivo/bcp_fromback.JPG" 
  },
 ];
