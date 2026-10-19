@@ -17,4 +17,12 @@ export const eventos = [
     lugar: "Salón Multiusos, La Paz de San Ramón",
     detalle: "Concierto dentro del Festival Viva La Paz.",
   },
+  {
+    fecha: "2027-01-15",
+    titulo: "Fiestas Cívicas de Palmares 2027",
+    tipo: "Concierto",
+    hora: "7:00 p.m.",
+    lugar: "Galería de arte, fiestas cívicas de Palmares",
+    detalle: "Concierto dentro de las Fiestas Cívicas de Palmares.",
+  },
 ];
