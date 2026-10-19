@@ -166,7 +166,10 @@ export const unete = {
 export const footer = {
   links: [
     { label: "info@appartes.cr", href: "mailto:info@appartes.cr" },
-    { label: "Instagram", href: "#" },
+    { label: "Instagram", href: "https://www.instagram.com/bandadeconciertospalmares?psln=MXJjeTNzZ2ZjbDJhYQ==" },
+    { label: "Facebook", href: "https://www.facebook.com/share/19azVTd4jR/?mibextid=wwXIfr" },
+    { label: "Youtube", href: "https://youtube.com/@bandadeconciertospalmares?si=Z99gJkHnWpLAS4W3" },
+    { Label: "TikTok", href: "https://www.tiktok.com/@banda.de.conciert?_r=1&_t=ZS-9Agm4WxbNwb"},
     { label: "Palmares, Costa Rica", href: "#" },
   ],
 };
