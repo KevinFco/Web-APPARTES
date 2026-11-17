@@ -4,6 +4,7 @@ import ScrollManager from "./components/ScrollManager";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import BandaPage from "./pages/BandaPage";
+import SonDeOccidente from "./pages/SonDeOccidente";
 import ComunidadPage from "./pages/ComunidadPage";
 import AcademiaPage from "./pages/AcademiaPage";
 import RevistaPage from "./pages/RevistaPage";
@@ -23,6 +24,7 @@ export default function App() {
           <Route index element={<HomePage />} />
           <Route path="appartes" element={<AboutPage />} />
           <Route path="banda" element={<BandaPage />} />
+          <Route path="sondeoccidente" element={<SonDeOccidente />} />
           <Route path="comunidad" element={<ComunidadPage />} />
           <Route path="academia" element={<AcademiaPage />} />
           <Route path="revista" element={<RevistaPage />} />

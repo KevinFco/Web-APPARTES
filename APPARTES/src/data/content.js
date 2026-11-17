@@ -4,8 +4,9 @@ export const LOGO_URL = "https://appartes-ssite.vercel.app/imgs/logo_appartes.pn
 export const navLinks = [
   { to: "/", label: "Inicio", end: true },
   { to: "/appartes", label: "APPARTES" },
-  { to: "/banda", label: "Banda" },
-  { to: "/comunidad", label: "Comunidad" },
+  { to: "/comunidad", label: "Comunidad", 
+    children: [{ to: "/banda", label: "Banda Conciertos" },
+      { to: "/sondeoccidente", label: "Son de Occidente" }]},
   { to: "/academia", label: "Academia" },
   { to: "/revista", label: "Revista" },
   { to: "/archivo", label: "Archivo" },
@@ -93,12 +94,45 @@ export const banda = {
   ],
 };
 
+export const sondeoccidente = {
+  kicker: "Nuestra Banda Juvenil",
+  title: "Compañía Artística Son de Occidente",
+  lead: "Fundada en 2021, tras la pandemia, como un espacio para que niños y jóvenes desarrollaran sus talentos artísticos a través de la música.",
+  datos: [
+    { etiqueta: "Año de fundación", valor: "2021", destacado: true },
+    { etiqueta: "Reconocimiento", valor: "Tercer lugar en el Festival Internacional de Bandas de Palmares" },
+    { etiqueta: "Hoy", valor: "Música, danza y artes escénicas" },
+  ],
+  historia: [
+    {
+      cuando: "2021",
+      titulo: "Nace como banda juvenil",
+      texto: "Surge tras la pandemia como un espacio para que niños y jóvenes desarrollen sus talentos artísticos a través de la música.",
+    },
+    {
+      cuando: "Pocos meses después",
+      titulo: "Tercer lugar en el Festival Internacional de Bandas de Palmares",
+      texto: "Apenas meses después de su nacimiento, la banda alcanza el tercer lugar en el festival.",
+    },
+    {
+      cuando: "2026",
+      titulo: "Se transforma en la Compañía Artística Son de Occidente",
+      texto: "Respondiendo a las necesidades de la comunidad, amplía sus horizontes hacia la música, la danza y las artes escénicas.",
+    },
+  ],
+  hoy: {
+    titulo: "Música, danza y artes escénicas",
+    texto: "Promoviendo el talento, la formación artística y la cultura en nuestra comunidad.",
+    areas: ["Música", "Danza", "Artes escénicas"],
+  },
+};
+
 export const comunidad = {
   title: "Comunidad Artística",
   subtitle: "Proyectos y agrupaciones que forman parte de APPARTES.",
   proyectos: [
     { nombre: "Banda de Conciertos de Palmares", to: "/banda" },
-    { nombre: "Nuestra Banda Juvenil" },
+    { nombre: "Son de Occidente", to: "/sondeoccidente" },
     { nombre: "Cimarronas" },
     { nombre: "Grupos Folclóricos" },
     { nombre: "Teatro" },
