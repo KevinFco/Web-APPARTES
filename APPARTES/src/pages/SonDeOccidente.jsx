@@ -3,6 +3,7 @@ import PageHeader from "../components/PageHeader";
 import Section from "../components/Section";
 import SectionHeading from "../components/SectionHeading";
 import { sondeoccidente as b } from "../data/content";
+import ImageSlot from "../components/ImageSlot";
 
 const enlace = "inline-block border-b-2 border-gold pb-0.5 text-[14.5px] font-semibold text-gold";
 
@@ -13,6 +14,7 @@ export default function SonDeOccidente() {
       <PageHeader kicker={b.kicker} title={b.title} titleClassName="max-w-[22ch]" />
 
       <Section>
+        <ImageSlot imagen={b.imagen} className="mb-8" />
         <p className="mb-14 max-w-[60ch] text-[19px] text-ivory">{b.lead}</p>
 
         <div className="grid grid-cols-3 gap-5 max-[900px]:grid-cols-1">

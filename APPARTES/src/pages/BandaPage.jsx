@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import PageHeader from "../components/PageHeader";
 import Section from "../components/Section";
 import { banda } from "../data/content";
+import ImageSlot from "../components/ImageSlot";
 
 export default function BandaPage() {
   return (
@@ -10,6 +11,7 @@ export default function BandaPage() {
       <PageHeader kicker={banda.kicker} title={banda.title} />
 
       <Section>
+        <ImageSlot imagen={banda.imagen} className="mb-8" />
         <p className="mb-14 max-w-[60ch] text-[19px] text-ivory">{banda.text}</p>
 
         <div className="grid grid-cols-3 gap-5 max-[900px]:grid-cols-1">

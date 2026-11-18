@@ -92,6 +92,11 @@ export const banda = {
     { etiqueta: "Repertorio", valor: "De lo sinfónico a lo popular, tradicional y latinoamericano" },
     { etiqueta: "Integrantes", valor: "Músicos de distintas edades y trayectorias" },
   ],
+  imagen: {
+    src: "/banda/bcp_con3.JPG",
+    alt: "Banda de Conciertos de Palmares",
+    pie: "",
+  },
 };
 
 export const sondeoccidente = {
@@ -124,6 +129,11 @@ export const sondeoccidente = {
     titulo: "Música, danza y artes escénicas",
     texto: "Promoviendo el talento, la formación artística y la cultura en nuestra comunidad.",
     areas: ["Música", "Danza", "Artes escénicas"],
+  },
+  imagen: {
+    src: "/sondeoccidente/son_Occidente1.png",
+    alt: "Banda de Conciertos de Palmares",
+    pie: "",
   },
 };
 

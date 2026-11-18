@@ -52,4 +52,25 @@ export const archivo = [
    descripcion: "",      
    archivo: "/archivo/bcp_fromback.JPG" 
  },
+ {
+   categoria: "fotografias",              
+   titulo: "Son de Occidente",
+   anio: "2026",                          
+   descripcion: "",      
+   archivo: "/archivo/son_occidente1.png" 
+ },
+ {
+   categoria: "fotografias",              
+   titulo: "Son de Occidente",
+   anio: "2021",                          
+   descripcion: "",      
+   archivo: "/archivo/son_occidente2.png" 
+ },
+ {
+   categoria: "fotografias",              
+   titulo: "Son de Occidente",
+   anio: "2026",                          
+   descripcion: "Logo",      
+   archivo: "/archivo/son_occidente_logo.png" 
+ },
 ];
